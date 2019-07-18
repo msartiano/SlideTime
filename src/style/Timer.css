@@ -1,0 +1,71 @@
+.timer-container {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.timer-time {
+    color: #12d61b;
+    font-size: 10rem;
+}
+
+.timer-buttons button {
+    background-color: transparent;
+    color: gray;
+
+    border: none;
+
+    margin: 0 10px;
+    padding: 0;
+    font-size: 4rem;
+
+    vertical-align: middle;
+
+    cursor: pointer;
+    outline: none;
+    filter: grayscale(100%);
+}
+
+.timer-change-minutes {
+    width: 50px;
+
+    background-color: gray;
+    color: #232323;
+
+    border: none;
+    border-left: 10px solid gray;
+    border-radius: 4px;
+
+    margin-left: 20px;
+    padding: 10px 5px;
+    font-size: 1.5rem;
+
+    vertical-align: middle;
+    text-align: center;
+
+    outline: none;
+}
+
+.slide-content {
+
+}
+
+.slide-title {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.slide-criteria {
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 5px 0 0 0;
+    color: #aaa;
+}
+
+.slide-criteria li > div > p {
+    margin: 0;
+    padding: 0;
+}
