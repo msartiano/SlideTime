@@ -1,31 +1,10 @@
 .rainbow-text {
     animation: rainbow 40s infinite;
-    text-shadow: rgb(128, 141, 147) 0px 1px, rgb(65, 73, 78) -1px 0px, rgb(128, 141, 147) -1px 2px, rgb(65, 73, 78) -2px 1px, rgb(128, 141, 147) -2px 3px, rgb(65, 73, 78) -3px 2px, rgb(128, 141, 147) -3px 4px, rgb(65, 73, 78) -4px 3px, rgb(128, 141, 147) -4px 5px, rgb(65, 73, 78) -5px 4px, rgb(128, 141, 147) -5px 6px, rgb(65, 73, 78) -6px 5px, rgb(128, 141, 147) -6px 7px, rgb(65, 73, 78) -7px 6px, rgb(128, 141, 147) -7px 8px, rgb(65, 73, 78) -8px 7px;
-
-    text-shadow: rgb(26, 26, 26) 0px -1px 0px, rgb(46, 46, 46) 0px 1px 0px, rgb(43, 43, 43) 0px 2px 0px, rgb(41, 41, 41) 0px 3px 0px, rgb(41, 41, 41) 0px 4px 0px, rgb(38, 38, 38) 0px 5px 0px, rgb(36, 36, 36) 0px 6px 0px, rgb(33, 33, 33) 0px 7px 0px, rgb(33, 33, 33) 0px 8px 0px, rgb(31, 31, 31) 0px 9px 0px, rgb(28, 28, 28) 0px 10px 0px, rgb(26, 26, 26) 0px 11px 0px, rgb(23, 23, 23) 0px 12px 0px, rgb(23, 23, 23) 0px 13px 0px, rgb(20, 20, 20) 0px 14px 0px, rgb(18, 18, 18) 0px 15px 0px, rgba(0, 0, 0, 0.9) 0px 22px 30px;
-
-    text-shadow: rgb(92, 92, 92) 2px 2px 0px, rgb(125, 125, 125) 4px 4px 0px;
-
-    text-shadow: rgb(26, 26, 26) 0px 0px 5px, rgb(26, 26, 26) 0px 0px 10px, rgb(26, 26, 26) 0px 0px 15px, rgb(101, 209, 71) 0px 0px 20px, rgb(101, 209, 71) 0px 0px 30px, rgb(101, 209, 71) 0px 0px 40px, rgb(101, 209, 71) 0px 0px 55px, rgb(101, 209, 71) 0px 0px 75px;
-
     text-shadow: rgb(77, 77, 77) 0px 1px 0px, rgb(79, 79, 79) 0px 2px 0px, rgb(94, 94, 94) 0px 3px 0px, rgb(94, 94, 94) 0px 4px 0px, rgb(110, 110, 110) 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 6px 1px, rgba(0, 0, 0, 0.1) 0px 0px 5px, rgba(0, 0, 0, 0.3) 0px 1px 3px, rgba(0, 0, 0, 0.2) 0px 3px 5px, rgba(0, 0, 0, 0.25) 0px 5px 10px, rgba(0, 0, 0, 0.2) 0px 10px 10px, rgba(0, 0, 0, 0.15) 0px 20px 20px;
 }
 
 /* Chrome, Safari, Opera */
 @keyframes rainbow {
-    /*
-    0%{color: white;}
-    10%{color: rgb(27, 138, 53);}
-    20%{color: white;}
-    30%{color: green;}
-    40%{color: white;}
-    50%{color: green;}
-    60%{color: gray;}
-    70%{color: green;}
-    80%{color: gray;}
-    90%{color: green;}
-    100%{color: gray;}
-    */
     0%{color: orange;}
     10%{color: rebeccapurple;}
     20%{color: orangered;}
